@@ -1,0 +1,45 @@
+#This is a list of parameters.
+#
+#I/O files
+eventFile = WHsample.dat
+pileupFile  = pileup.dat
+outputFile  =    overlap.txt
+jetFile =      jet_mult.txt
+miniFile =  output.txt
+# Template libraries
+nptbins = 1
+ptbinwidth = 100.
+#
+file3b1      =   template2bf.dat
+file3b2      =   templatetop_1150_R10.txt
+file3b3      =   templatetop_1250_R10.txt
+file3b4      =   templatetop_1350_R10.txt
+file3b5      =   templatetop_1450_R10.txt
+file3b6      =   templatetop_1550_R10.txt
+file3b7      =   templatetop_1650_R10.txt
+#
+#
+# Template Overlap
+subConeRadius2  =    0.3
+subConeRadius3   =   0.3
+mode     =     0   ! 0: Step function 1: Gaussian
+variablecone = 1
+#
+#pileup overlay
+nPileupAvg  =        0.0
+minPtclus     =   0.0
+#
+#fastjet
+coneRadius   =  1.0
+coneRadius2 =   0.4
+minPt     =     300.
+maxPt    =   7000.
+minMass   =   0.
+maxMass   =  7000.
+nMaxJets   =  10000
+btags = 2
+ptjetmin = 20.
+njetoutside = 1 ! Maximum number jets outside with pt>ptjetmin
+minptw = 300.
+minmet   = 40.
+

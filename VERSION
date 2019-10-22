@@ -1,0 +1,18 @@
+
+Version 1.0.3(January 3, 2013)
+Fixed bug in the computation of planar flow
+Added example6.cc to show how to set up a TopTemplateTagger in Fastjet
+Added example7.cc to show how to to set up a TopTemplateTagger in Fastjet and how to select templates pT based on jet pT.
+
+Version 1.0.2(December 20, 2012)
+A TemplateTagger can be set up using a TemplateDefinition
+Added example5.cc,  shows how to select template pT based on jet pT
+
+Version 1.0.1 (December 18, 2012)
+Added a faster, simpler implementation of overlap function using just cones.
+Optionally, we provide generalized implementations that make use of custom functional measures, i.e. Gaussian, cones, etc..
+Added optimization based on ATLAS local code
+
+Version 1.0.0 (December 12, 2012)
+
+
